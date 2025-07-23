@@ -1,13 +1,83 @@
-# React + Vite
+# # CounterApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app to practice component structure, props, and the useState hook.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Display and update a counter using `useState`.
+- Input field that captures and displays text in real time.
+- Reset, increment, and decrement buttons.
+- Clean and minimal UI.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# counterApp
+---
+
+## Tech Stack
+
+- **Frontend:** React + Vite
+- **Linting:** ESLint (`eslint-plugin-react`, `react-hooks`, `react-refresh`)
+- **Formatting:** Prettier
+- **Package Manager:** npm
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/gabogara/counterApp.git
+   cd counterApp
+
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npn install
+
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## This will start the Vite development server. Open your browser and go to:
+
+```bash
+   npm run dev
+```
+
+This will start the Vite development server. Open your browser and go to:
+
+```web
+   http://localhost:5173
+```
+---
+
+## How to use it
+
+1. Type something in the input field — it will show live on the screen.
+2. Use the +1, -1, and Reset buttons to manipulate the counter.
+3. Watch how the UI responds to state changes via useState.
+
+---
+
+## Learning Purpose
+
+This project was created as part of a personal learning journey to reinforce knowledge of:
+
+- Functional components
+- State management with useState
+- Props passing and rendering
+
+
+---
+
+## Contact
+
+For any questions, issues, or feedback, please reach out via **GitHub** or open an issue in the repository.
